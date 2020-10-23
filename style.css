@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+}
+
+.header-inner {
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    width: 1200px;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.header-menu {
+    display: flex;
+    font-size: 20px;
+}
+
+.header-menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header-menu ul li {
+    margin: auto;
+    cursor: pointer;
+    margin-right: 30px;
+    border-bottom: 2px solid white;
+}
+
+.header-menu ul li:hover {
+    border-bottom: 2px solid blue;
+}
+
+.intro {
+    background-image: url(https://www.tokyobanana.jp/language/images/main_slide03_pc.jpg);
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-inner {
+    width: 1200px;
+}
+
+.intro-text {
+    line-height: 40px;
+    font-weight: 300;
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: #544022;
+    font-family: 'EB Garamond', serif;
+}
+
+.intro-inner button {
+    background-color: tomato;
+    font-size: 25px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #544022;
+    color: #544022;
+    font-family: 'EB Garamond', serif;
+}
